@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Giochi e Console | FourGame</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        
+         ul.barra {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+ul.barra li {
+    float: left;
+}
+
+ul.barra li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.barra li a:hover {
+    background-color: red;
+}
+        
+        body {
+            background-color: #E0E0E0;
+            font-family: 'Orbitron', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: red;
+        }
+
+        h3, p {
+            text-align: center;
+        }
+
+        /* Stile per il menu orizzontale */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            text-align: center;
+            font-weight: bold;
+            display: block;
+        }
+
+        .navbar a:hover {
+            background-color: red;
+            border-radius: 5px;
+        }
+
+        /* Per evitare che il contenuto venga nascosto dal menu */
+        body {
+            padding-top: 60px;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 200px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .add-to-cart {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 11px;
+            background-color: black;
+            color: white;
+            overflow: hidden;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <h1>
+    <table>
+        <tr>
+            <td>
+                <a href="index.html.html"> 
+                <img src="fourgames_logo.jpg.png" alt="logo" width="150" style="padding-left: 20px;" >
+                    </a>
+            </td>
+            <td style="text-align: left; vertical-align: middle; padding-left: 20px; color: black; font-family: Verdana, Geneva, Tahoma, sans-serif">
+                FOUR GAME
+                <br>
+                Spazio Digitale per Appassionati di Videogiochi
+                <br>
+                Ideato dagli studenti dell'ITSOS Marie Curie
+            </td>
+        </tr>
+    </table>
+</h1>
+    
+    <ul class=barra style="font-family: 'Times New Roman', serif;">
+        <li><a href="index.html.html">HOME PAGE</a></li>
+        <li><a href="listinogiochieconsole.html.html">LISTINO GIOCHI E CONSOLE</a></li>
+        <li><a href="indirizzinegozi.html.html">INDIRIZZI NEGOZI E POSTI</a></li>
+        <li><a href="storia_policy.html.html">STORIA E POLICY</a></li>
+    </ul>
+
+    <!-- Menu di navigazione orizzontale -->
+    <div class="navbar">
+        <a href="#playstation-console">PlayStation (Console)</a>
+        <a href="#playstation-games">PlayStation (Giochi)</a>
+        <a href="#xbox-console">Xbox (Console)</a>
+        <a href="#xbox-games">Xbox (Giochi)</a>
+    </div>
+
+    <h1>GIOCHI E CONSOLE</h1>
+    <h1 style="color: black;" id="playstation-console">Play Station (console)</h1>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/51f6iZlNnvL.jpg" alt="PlayStation 5" style="width: 100%;">
+            <h3>PlayStation 5</h3>
+            <p><strong>Prezzo:</strong> €549,99</p>
+            <p><a href="https://www.youtube.com/watch?v=RkC0l4iekYo" target="_blank">Trailer di lancio</a></p>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sony-PlayStation-4-PS4-wDualShock-4.jpg/1200px-Sony-PlayStation-4-PS4-wDualShock-4.jpg" alt="PlayStation 4" style="width: 100%;">
+            <h3>PlayStation 4</h3>
+            <p><strong>Prezzo:</strong> €299,99</p>
+            <p><a href="https://www.youtube.com/watch?v=C8y7FZ3-L00" target="_blank">Trailer di lancio</a></p>
+        </div>
+
+        <div class="card">
+            <img src="https://files.refurbed.com/ii/playstation-3-1679924964.jpg" alt="PlayStation 3" style="width: 80%;">
+            <h3>PlayStation 3</h3>
+            <p><strong>Prezzo:</strong> €199,99</p>
+            <p><a href="https://www.youtube.com/watch?v=RaJEzs2aQFo" target="_blank">Trailer di lancio</a></p>
+        </div>
+    </div>
+
+    <h1 style="color: black;" id="playstation-games">Play Station (giochi)</h1>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202304/2815/11d0dbc5e72685640d62c9848170615d220d91d690181b82.png" alt="METAL GEAR SOLID" style="width: 100%;">
+            <h3>METAL GEAR SOLID: MASTER COLLECTION Vol.1 PS4 e PS5</h3>
+            <p><strong>Prezzo:</strong> €39,90</p>
+            <p><a href="https://www.youtube.com/watch?v=EUmK5Ay8RIQ" target="_blank">Trailer gioco</a></p>
+            <button class="add-to-cart">Aggiungi al carrello</button>
+        </div>
+
+        <div class="card">
+            <img src="https://image.api.playstation.com/cdn/EP0102/CUSA09263_00/I0qOqWREOTl1DDM5bKB1Qg8LmRWKDlMI.png" alt="Devil May Cry HD Collection" style="width: 100%;">
+            <h3>Devil May Cry HD Collection</h3>
+            <p><strong>Prezzo:</strong> €21,99</p>
+            <p><a href="https://www.youtube.com/watch?v=GTIyzQ1KeUw" target="_blank">Trailer gioco</a></p>
+            <button class="add-to-cart">Aggiungi al carrello</button>
+        </div>
+
+        <div class="card">
+            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202111/2000/gTUWTlvPHzxFJ2JAxtDyI2eS.png" alt="UNCHARTED" style="width: 100%;">
+            <h3>UNCHARTED: Raccolta L'eredità dei ladri</h3>
+            <p><strong>Prezzo:</strong> €49,99</p>
+            <p><a href="https://www.youtube.com/watch?v=pJ9fs3KWdt8" target="_blank">Trailer gioco</a></p>
+            <button class="add-to-cart">Aggiungi al carrello</button>
+        </div>
+
+        <div class="card">
+            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202311/2812/d2a44736cace2e6cb1a8244455e8890b0afb17d663552e7d.png" alt="Cyberpunk 2077" style="width: 100%;">
+            <h3>Cyberpunk 2077: Ultimate Edition (PS5)</h3>
+            <p><strong>Prezzo:</strong> €69,99</p>
+            <p><a href="https://www.youtube.com/watch?v=z5RKh5nPK9k" target="_blank">Trailer gioco</a></p>
+            <button class="add-to-cart">Aggiungi al carrello</button>
+        </div>
+
+        <div class="card">
+            <img src="https://image.api.playstation.com/vulcan/img/rnd/202009/2921/40aD0BqRUHyHdXdC6nwtwON5.png" alt="DEATH STRANDING" style="width: 100%;">
+            <h3>DEATH STRANDING</h3>
+            <p><strong>Prezzo:</strong> €29,99</p>
+            <p><a href="https://www.youtube.com/watch?v=tCI396HyhbQ" target="_blank">Trailer gioco</a></p>
+            <button class="add-to-cart">Aggiungi al carrello</button>
+        </div>
+    </div>
+
+    <h1 style="color: black;" id="xbox-console">Xbox (console)</h1>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://thumb.pccomponentes.com/w-530-530/articles/32/323078/2645-microsoft-xbox-series-x-1tb-comprar.jpg" alt="Microsoft Xbox Serie X 1TB Nero" style="width: 100%;">
+            <h3>Microsoft Xbox Serie X 1TB Nero</h3>
+            <p><strong>Prezzo:</strong> €649,99</p>
+            <p><a href="https://www.youtube.com/watch?v=0tUqIHwHDEc" target="_blank">Trailer di lancio</a></p>
+        </div>
+
+        <div class="card">
+            <img src="https://it.static.webuy.com/product_images/Giochi/Xbox%20Series%20Console/SXSS512GBW001_l.jpg" alt="Xbox Series S, 512GB, Bianca" style="width: 100%;">
+            <h3>Xbox Series S, 512GB, Bianca</h3>
+            <p><strong>Prezzo:</strong> €219,99</p>
+            <p><a href="https://www.youtube.com/watch?v=KHLfCFMKxPg" target="_blank">Trailer di lancio</a></p>
+        </div>
+
+        <div class="card">
+            <img src="https://media.gamestop.com/i/gamestop/10138875?$pdp$" alt="Xbox One 500GB - Nero" style="width: 110%;">
+            <h3>Xbox One 500GB - Bianco</h3>
+            <p><strong>Prezzo:</strong> €149,99</p>
+            <p><a href="https://www.youtube.com/watch?v=Spz5olq7K1A" target="_blank">Trailer di lancio</a></p>
+        </div>
+    </div>
+
+    <h1 style="color: black;" id="xbox-games">Xbox (giochi)</h1>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/81nWynmiDPL._AC_UF894,1000_QL80_.jpg" alt="Halo Infinite" style="width: 100%;">
+            <h3>Halo Infinite</h3>
+            <p><strong>Prezzo:</strong> €59,99</p>
+            <p><a href="https://www.youtube.com/watch?v=PyMlV5_HRWk" target="_blank">Trailer gioco</a></p>
+            <button class="add-to-cart">Aggiungi al carrello</button>
+        </div>
+
+        <div class="card">
+            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202502/1900/631436cfbc1d64659c778e3783f29fafad6022145e0ffec8.jpg" alt="Forza Horizon 5" style="width: 100%;">
+            <h3>Forza Horizon 5</h3>
+            <p><strong>Prezzo:</strong> €49,99</p>
+            <p><a href="https://www.youtube.com/watch?v=mwh4QXT5tsg" target="_blank">Trailer gioco</a></p>
+            <button class="add-to-cart">Aggiungi al carrello</button>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/e4/Gears_5_cover_art.png" alt="Gears 5" style="width: 100%;">
+            <h3>Gears 5</h3>
+            <p><strong>Prezzo:</strong> €39,99</p>
+            <p><a href="https://www.youtube.com/watch?v=H5qJcGZH8hM" target="_blank">Trailer gioco</a></p>
+            <button class="add-to-cart">Aggiungi al carrello</button>
+        </div>
+
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/81zaiCqZNAL.jpg" alt="Assassin's Creed Valhalla" style="width: 100%;">
+            <h3>Assassin's Creed Valhalla</h3>
+            <p><strong>Prezzo:</strong> €49,99</p>
+            <p><a href="https://www.youtube.com/watch?v=1m9b4gFhIEw" target="_blank">Trailer gioco</a></p>
+            <button class="add-to-cart">Aggiungi al carrello</button>
+        </div>
+
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/81PmsPgaUTL._AC_UF894,1000_QL80_.jpg" alt="Resident Evil Village" style="width: 100%;">
+            <h3>Resident Evil Village</h3>
+            <p><strong>Prezzo:</strong> €49,99</p>
+            <p><a href="https://www.youtube.com/watch?v=7C0U2LQkYxs" target="_blank">Trailer gioco</a></p>
+            <button class="add-to-cart">Aggiungi al carrello</button>
+        </div>
+    </div>
+    
+    <footer>
+        <h1 style="font-family: fantasy; color: white">TERMINI & CONDIZIONI</h1>
+
+        <p>
+            I giochi riportati dovranno essere integri, funzionanti, compresi di custodia e libretto. <br>
+            L’extravalutazione verrà calcolata a partire dalla valutazione standard del prodotto a sistema. <br>
+            Promozione non cumulabile con altre promozioni. Dettagli, restrizioni e limitazioni in cassa.
+        </p>
+
+        <table border="1" style="width: 100%; text-align: center">
+            <tr>
+                <td>
+                    <b>SERVIZI</b> <br>
+                    <a href="storia_policy.html.html" style="text-decoration: underline; text-decoration-color: white; color: white"> Traccia il tuo ordine</a>  <br>
+                    <a href="storia_policy.html.html" style="text-decoration: underline; text-decoration-color: white; color: white"> Notizie</a> <br>
+                    <a href="storia_policy.html.html" style="text-decoration: underline; text-decoration-color: white; color: white"> Recensioni </a><br>
+                </td>
+
+                <td>
+                    <b>CONTATTI</b> <br>
+                    <a href="indirizzinegozi.html.html" style="text-decoration: underline; text-decoration-color: white; color: white"> Servizio Clienti  </a> <br>
+                    <a href="indirizzinegozi.html.html" style="text-decoration: underline; text-decoration-color: white; color: white"> Lavori con noi  </a> <br>
+                    <a href="indirizzinegozi.html.html" style="text-decoration: underline; text-decoration-color: white; color: white"> Trova un negozio  </a> <br>
+                </td>
+
+                <td>
+                    <b>NOTE LEGALI</b> <br>
+                    <a href="storia_policy.html.html" style="text-decoration: underline; text-decoration-color: white; color: white"> Condizioni di vendita  </a> <br>
+                    <a href="storia_policy.html.html" style="text-decoration: underline; text-decoration-color: white; color: white"> Garanzia Legale </a> <br>
+                    <a href="storia_policy.html.html" style="text-decoration: underline; text-decoration-color: white; color: white"> Cookie Policy  </a> <br>
+                </td>
+            </tr>
+        </table>
+        
+<h1>       
+        <table style="text-align: center; width: 100%; border: none">
+    <tr>
+        <td>
+            <a href="https://www.instagram.com/alessandro.burgo._/" style="text-decoration: none; ">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Icon" width="50">
+            </a>
+
+            <a href="https://www.youtube.com/@landotv4845" style="text-decoration: none; ">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube Icon" width="50" style="padding-bottom: 5px">
+            </a>
+
+            <a href="https://it-it.facebook.com/people/Alessio-Lando/pfbid02WSqVz62DuNTPoikf65TzjNjsfSY5qkzV1nPmuTAMaDGaEajs1yfAWEQneGffw549l/" style="text-decoration: none">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" alt="Facebook Icon" width="50">
+            </a>
+        </td>
+        
+        <td>
+             <span style="text-align: right; color: red"> FOUR </span> <span style="text-align: right; color: white">GAME</span>
+        </td>
+    </tr> 
+</table>
+        </h1>
+    </footer>
+</body>
+</html>
